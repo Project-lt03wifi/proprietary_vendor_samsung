@@ -108,4 +108,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvalAuth.so:system/lib/libvalAuth.so \
     vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvcsfp.so:system/lib/libvcsfp.so \
     vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvfmClient.so:system/lib/libvfmClient.so \
-    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
+    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
+    vendor/samsung/klimt-common/proprietary/vendor/lib/liblvverx_3.20.03.so:system/vendor/lib/liblvverx_3.20.03.so \
+    vendor/samsung/klimt-common/proprietary/lib/libaudiosa.so:system/lib/libaudiosa.so \
+    vendor/samsung/klimt-common/proprietary/lib/soundfx/libaudiosa_sec.so:system/lib/soundfx/libaudiosa_sec.so \
+    vendor/samsung/klimt-common/proprietary/lib/lib_SA_GoogleFX_ver124b.so:system/lib/lib_SA_GoogleFX_ver124b.so \
+    vendor/samsung/klimt-common/proprietary/lib/lib_SoundAlive_play_ver125e.so:system/lib/lib_SoundAlive_play_ver125e.so
