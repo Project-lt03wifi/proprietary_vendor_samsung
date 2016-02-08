@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtlte/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/klimtlte/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/klimtlte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
-    vendor/samsung/klimtlte/proprietary/bin/drmserver:system/bin/drmserver.samsung \
     vendor/samsung/klimtlte/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/klimtlte/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/klimtlte/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \

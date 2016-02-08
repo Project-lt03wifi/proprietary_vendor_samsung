@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     vendor/samsung/klimtwifi/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
     vendor/samsung/klimtwifi/proprietary/lib/libvdis.so:system/lib/libvdis.so \
-    vendor/samsung/klimtwifi/proprietary/bin/drmserver:system/bin/drmserver.samsung \
     vendor/samsung/klimtwifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/klimtwifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
