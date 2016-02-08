@@ -49,9 +49,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtlte/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/samsung/klimtlte/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/samsung/klimtlte/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/klimtlte/proprietary/lib/drm/libomaplugin.so:system/lib/drm/libomaplugin.so \
-    vendor/samsung/klimtlte/proprietary/lib/drm/libplayreadyplugin.so:system/lib/drm/libplayreadyplugin.so \
-    vendor/samsung/klimtlte/proprietary/lib/drm/libprgenericplugin.so:system/lib/drm/libprgenericplugin.so \
     vendor/samsung/klimtlte/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/samsung/klimtlte/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/klimtlte/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
