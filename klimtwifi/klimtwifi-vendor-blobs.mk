@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/hw/camera.vendor.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
     vendor/samsung/klimtwifi/proprietary/lib/libak09911c.so:system/lib/libak09911c.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_flawlessface2.so:system/lib/libarcsoft_flawlessface2.so \
+    vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_magicshot_bestface.so:system/lib/libarcsoft_magicshot_bestface.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_magicshot_bestphoto.so:system/lib/libarcsoft_magicshot_bestphoto.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_magicshot_common.so:system/lib/libarcsoft_magicshot_common.so \
@@ -38,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_picmotion.so:system/lib/libarcsoft_picmotion.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_preprocessor.so:system/lib/libarcsoft_preprocessor.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_readengine.so:system/lib/libarcsoft_readengine.so \
+    vendor/samsung/klimtwifi/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/samsung/klimtwifi/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so \
     vendor/samsung/klimtwifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
