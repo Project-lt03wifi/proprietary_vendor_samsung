@@ -47,6 +47,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimtwifi/proprietary/lib/libvdis.so:system/lib/libvdis.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/samsung/klimtwifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+    vendor/samsung/klimtwifi/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/klimtwifi/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+    vendor/samsung/klimtwifi/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    vendor/samsung/klimtwifi/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    vendor/samsung/klimtwifi/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    vendor/samsung/klimtwifi/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/samsung/klimtwifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
