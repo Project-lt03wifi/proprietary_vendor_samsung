@@ -57,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/klimt-common/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/samsung/klimt-common/proprietary/vendor/lib/libmalicore.bc:system/vendor/lib/libmalicore.bc \
-    vendor/samsung/klimt-common/proprietary/vendor/lib/libRSDriverArm.so:system/vendor/lib/libRSDriverArm.so \
     vendor/samsung/klimt-common/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/samsung/klimt-common/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/klimt-common/proprietary/etc/gps.xml:system/etc/gps.xml \
