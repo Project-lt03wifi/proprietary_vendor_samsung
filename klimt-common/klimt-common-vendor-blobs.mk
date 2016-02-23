@@ -101,5 +101,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
     vendor/samsung/klimt-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/klimt-common/proprietary/usr/idc/Synaptics_HID_TouchPad.idc:system/usr/idc/Synaptics_HID_TouchPad.idc \
-    vendor/samsung/klimt-common/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
+    vendor/samsung/klimt-common/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
     vendor/samsung/klimt-common/proprietary/sbin/sswap:root/sbin/sswap
