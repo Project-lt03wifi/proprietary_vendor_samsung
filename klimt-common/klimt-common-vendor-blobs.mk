@@ -102,4 +102,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/klimt-common/proprietary/usr/idc/Synaptics_HID_TouchPad.idc:system/usr/idc/Synaptics_HID_TouchPad.idc \
     vendor/samsung/klimt-common/proprietary/usr/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
-    vendor/samsung/klimt-common/proprietary/sbin/sswap:root/sbin/sswap
+    vendor/samsung/klimt-common/proprietary/sbin/sswap:root/sbin/sswap \
+    vendor/samsung/klimt-common/proprietary_fingerprint/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
