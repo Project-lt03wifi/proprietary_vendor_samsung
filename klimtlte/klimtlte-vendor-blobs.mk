@@ -16,5 +16,4 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimtlte/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so \
-    vendor/samsung/klimtlte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
-    vendor/samsung/klimtlte/proprietary/sbin/cbd:root/sbin/cbd
+    vendor/samsung/klimtlte/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so
