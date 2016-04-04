@@ -90,11 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/lib/libarcsoft_readengine.so:system/lib/libarcsoft_readengine.so \
     vendor/samsung/klimt-common/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/samsung/klimt-common/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so \# Camera
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klimt-common/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so \
-    vendor/samsung/klimt-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
-    vendor/samsung/klimt-common/proprietary/lib/libliveframework.so:system/lib/libliveframework.so \
-    vendor/samsung/klimt-common/proprietary/lib/libvdis.so:system/lib/libvdis.so
 
 # Camera - arcsoft
 PRODUCT_COPY_FILES += \
@@ -142,6 +137,7 @@ PRODUCT_COPY_FILES += \
 
 # Samsung Exynos5 SoC series FIMC-IS driver firmware
 PRODUCT_COPY_FILES += \
+    vendor/samsung/klimt-common/proprietary/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin \
     vendor/samsung/klimt-common/proprietary/vendor/firmware/setfile_6b2_eeprom.bin:system/vendor/firmware/setfile_6b2_eeprom.bin \
     vendor/samsung/klimt-common/proprietary/vendor/firmware/setfile_imx134_eeprom.bin:system/vendor/firmware/setfile_imx134_eeprom.bin
 
