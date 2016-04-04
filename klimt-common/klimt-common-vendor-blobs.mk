@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/lib/libarcsoft_preprocessor.so:system/lib/libarcsoft_preprocessor.so \
     vendor/samsung/klimt-common/proprietary/lib/libarcsoft_readengine.so:system/lib/libarcsoft_readengine.so \
     vendor/samsung/klimt-common/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/klimt-common/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so \# Camera
+    vendor/samsung/klimt-common/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so
 
 # Camera - arcsoft
 PRODUCT_COPY_FILES += \
@@ -107,7 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/lib/libarcsoft_preprocessor.so:system/lib/libarcsoft_preprocessor.so \
     vendor/samsung/klimt-common/proprietary/lib/libarcsoft_readengine.so:system/lib/libarcsoft_readengine.so \
     vendor/samsung/klimt-common/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/samsung/klimt-common/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so \
+    vendor/samsung/klimt-common/proprietary/lib/libarcsoft_vdoinvideo.so:system/lib/libarcsoft_vdoinvideo.so
 
 # SRP Audio driver for Samsung Exynos firmware
 PRODUCT_COPY_FILES += \
@@ -158,12 +158,12 @@ PRODUCT_COPY_FILES += \
 
 # FingerPrint Scanner
 PRODUCT_COPY_FILES += \
-    vendor/samsung/klimt-common/proprietary_fingerprint/bin/vcsFPService:system/bin/vcsFPService \
-    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
-    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvalAuth.so:system/lib/libvalAuth.so \
-    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvcsfp.so:system/lib/libvcsfp.so \
-    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvfmClient.so:system/lib/libvfmClient.so \
-    vendor/samsung/klimt-common/proprietary_fingerprint/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
+    vendor/samsung/klimt-common/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/klimt-common/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+    vendor/samsung/klimt-common/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    vendor/samsung/klimt-common/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    vendor/samsung/klimt-common/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    vendor/samsung/klimt-common/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
 
 # Sound effects
 PRODUCT_COPY_FILES += \
