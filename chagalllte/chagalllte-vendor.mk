@@ -1,4 +1,4 @@
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Include chagall-common repo
-$(call inherit-product-if-exists, vendor/samsung/chagall-common/chagall-common-vendor.mk)
--include vendor/samsung/chagall-common/BoardConfigVendor.mk
+# Include tabs-common repo
+$(call inherit-product-if-exists, vendor/samsung/tabs-common/tabs-common-vendor.mk)
+-include vendor/samsung/tabs-common/BoardConfigVendor.mk
 
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/chagalllte/overlay
