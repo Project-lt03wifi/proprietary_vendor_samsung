@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/chagall-common/proprietary/vendor/firmware/bcm4350_V0301.0601.hcd:system/vendor/firmware/bcm4350_V0301.0601.hcd \
     vendor/samsung/chagall-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/samsung/chagall-common/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.vendor.universal5420.so \
+    vendor/samsung/chagall-common/proprietary/lib/libmor.so:system/lib/libmor.so \
     vendor/samsung/chagall-common/proprietary/lib/libak09911c.so:system/lib/libak09911c.so \
     vendor/samsung/chagall-common/proprietary/lib/libarcsoft_flawlessface2.so:system/lib/libarcsoft_flawlessface2.so \
     vendor/samsung/chagall-common/proprietary/lib/libarcsoft_magicshot_bestface.so:system/lib/libarcsoft_magicshot_bestface.so \
