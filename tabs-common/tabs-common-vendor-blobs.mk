@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
 
 # Mobicore
 PRODUCT_COPY_FILES += \
+    vendor/samsung/tabs-common/proprietary/bin/cs:system/bin/cs \
     vendor/samsung/tabs-common/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
     vendor/samsung/tabs-common/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/samsung/tabs-common/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:system/app/mcRegistry/02010000080300030000000000000000.tlbin \
@@ -144,13 +145,11 @@ PRODUCT_COPY_FILES += \
 
 # MediaDRM
 PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so
-
-# Stagefright
-PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+    vendor/samsung/tabs-common/proprietary/vendor/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/samsung/tabs-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+    vendor/samsung/tabs-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/tabs-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/samsung/tabs-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/samsung/tabs-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so
 
 # SSWAP
