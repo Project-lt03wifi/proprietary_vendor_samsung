@@ -59,12 +59,12 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint Sensor
 PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary_fingerprint/bin/vcsFPService:system/bin/vcsFPService \
-    vendor/samsung/tabs-common/proprietary_fingerprint/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
-    vendor/samsung/tabs-common/proprietary_fingerprint/lib/libvalAuth.so:system/lib/libvalAuth.so \
-    vendor/samsung/tabs-common/proprietary_fingerprint/lib/libvcsfp.so:system/lib/libvcsfp.so \
-    vendor/samsung/tabs-common/proprietary_fingerprint/lib/libvfmClient.so:system/lib/libvfmClient.so \
-    vendor/samsung/tabs-common/proprietary_fingerprint/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
+    vendor/samsung/tabs-common/proprietary/bin/vcsFPService:system/bin/vcsFPService \
+    vendor/samsung/tabs-common/proprietary/lib/libfpasmtztransport.so:system/lib/libfpasmtztransport.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvalAuth.so:system/lib/libvalAuth.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvcsfp.so:system/lib/libvcsfp.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvfmClient.so:system/lib/libvfmClient.so \
+    vendor/samsung/tabs-common/proprietary/lib/libvfmtztransport.so:system/lib/libvfmtztransport.so
 
 # WiFi - Firmware
 PRODUCT_COPY_FILES += \
@@ -153,7 +153,7 @@ PRODUCT_COPY_FILES += \
 
 # MediaDRM
 PRODUCT_COPY_FILES += \
-    vendor/samsung/tabs-common/proprietary/vendor/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/samsung/tabs-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
     vendor/samsung/tabs-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/samsung/tabs-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/tabs-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
