@@ -31,6 +31,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagalllte/proprietary/lib/hw/sensors.universal5420.so:system/lib/hw/sensors.universal5420.so
 
+# Camera
+PRODUCT_COPY_FILES += \
+    vendor/samsung/chagalllte/proprietary/lib/hw/camera.universal5420.so:system/lib/hw/camera.universal5420.so
+
 # GPS
 PRODUCT_COPY_FILES += \
     vendor/samsung/chagalllte/proprietary/bin/gpsd:system/bin/gpsd \
