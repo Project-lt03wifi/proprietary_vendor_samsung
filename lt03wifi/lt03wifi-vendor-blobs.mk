@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/lt03wifi/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
     vendor/samsung/lt03wifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/lt03wifi/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
+    vendor/samsung/lt03wifi/proprietary/lib/libmor.so:system/lib/libmor.so \
     vendor/samsung/lt03wifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/lt03wifi/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
     vendor/samsung/lt03wifi/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
